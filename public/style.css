@@ -1,0 +1,113 @@
+body{
+    text-align: center;
+}
+h1{
+    color: magenta;
+}
+.post{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 550px;
+    width: 400px;
+    background-color: aliceblue;
+    margin-left: 38%;
+    
+
+}
+.user{
+    font-style: italic;
+    text-align: left;
+}
+
+.box{
+    
+    margin-left: 40%;
+    padding-top: 10px;
+    border: 2px solid black ;
+    height: 450px;
+    width: 400px;
+    text-align: center;
+    
+}
+.like{
+  margin-right: 320px; 
+}
+.nimg{
+    margin-top: 100px;
+    margin-left: 30%;
+    text-align: center;
+    height: 100px;
+    width: 200px;
+    border:4px solid rgb(248, 117, 215);
+    background-color: rgb(250, 248, 246);
+}
+.form{
+    margin-left: 35%;
+    margin-top: 50px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    border: 5px solid #000; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.us,.tx,.ibutton{
+    border: 4px solid rgb(248, 117, 215);
+    
+}
+.newp{
+    height: 50px;
+    width: 100px;
+    border-radius: 15px;
+    border-radius: 2px solid black;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+    margin-right: 100px;
+    
+}
+.newp a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.see{
+    height: 20px;
+    width: 90px;
+    border-radius: 15px;
+    border-radius: 2px solid black;
+    background:  #9b36b7 ;
+    margin-right: 200px;
+    
+}
+.see a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.edit{
+    height: 20px;
+    width: 90px;
+    border-radius: 15%;
+    border: 2px solid black;
+    background:   #d92e7f ; 
+    
+}
+.edit a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.boxedit{
+    margin-left: 40%;
+    padding-top: 10px;
+    border: 2px solid rgb(246, 15, 238) ;
+    height: 600px;
+    width: 400px;
+    text-align: center;
+    background-color: #727ff4;
+
+}
+.ecap{
+    height: 100px;
+    width: 300px;
+}
+.del{
+    background-color: red;
+    color: white;
+}
