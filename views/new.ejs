@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <form method="post" action="/posts" class="form" enctype="multipart/form-data">
+        <div class="nimg">
+            <label for="img">Add your image:</label>
+            <input type="file" id="img" name="img" accept="image/*"> <!-- Added file input for image -->
+        </div>
+        <br>
+        <input class="us" placeholder="enter your username" name="username" required> <br><br>
+        <textarea class="tx" placeholder="write your caption" name="caption" required></textarea> <br> <br>
+        <button class="ibutton" type="submit">submit</button>
+    </form>
+    
+    
+    
+</body>
+</html>

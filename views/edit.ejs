@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Caption</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="boxedit">
+        <h2>Edit your post</h2>
+        <p>Post ID: <%= post.id %></p>
+        <img src="<%= post.img %>" alt="Post Image" style="max-width: 100%;">
+        <p>Post Username: @<%= post.username %></p>
+        <form action="/posts/<%= post.id %>?_method=PATCH" method="post">
+            <textarea name="caption" class="ecap"><%= post.caption %></textarea>
+            <button >Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>

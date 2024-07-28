@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>insta Rest Api </title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <img src="https://pngedits.com/public/uploads/preview/instagram-logo-png-image-download-11617068196c1gb8cm06w.png" height="100px" width="200px" alt="logo">
+    <% for(post of posts){ %>
+        <div class="box">
+           
+            <h3 class="user">@ <%=post.username %></h3>
+            <img src= <%=post.img %>  alt="img" width="400px" height="200px">
+            <img class="like" src="https://i.pinimg.com/originals/2c/10/04/2c10047adc2f17918ba8b5b3feb1cc3a.jpg" height="40px" width="100px" alt="like">
+            <h4> <%=post.caption %></h4>
+           <button class="see"><a href="http://localhost:8080/posts/<%=post.id%>">see in detail</a></button> 
+           <button class="edit"><a href="http://localhost:8080/posts/<%=post.id%>/edit">Edit caption</a></button> 
+           <form action="/posts/<%= post.id %>?_method=DELETE" method="post">
+            <button class="del">Delete</button>
+           </form>
+          
+        </div>
+        
+
+        <%}%>
+        <br>
+        <button class="newp"><a href="http://localhost:8080/posts/new">Create New Post</a></button>
+        
+
+</body>
+</html>
